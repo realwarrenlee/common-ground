@@ -1,0 +1,19 @@
+# Dependencies and local verification output
+node_modules/
+.vercel/
+.artifacts/
+.playwright-cli/
+playwright-report/
+test-results/
+coverage/
+
+# Logs and operating-system files
+*.log
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Local credentials; keep the example template
+.env
+.env.*
+!.env.example
